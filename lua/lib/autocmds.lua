@@ -26,3 +26,9 @@ autocmd('LspAttach', {
     end
   end,
 })
+
+autocmd("CursorMoved", {
+    callback = function()
+        require('gitsigns').preview_hunk_inline()
+    end,
+})
