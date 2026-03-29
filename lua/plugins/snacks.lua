@@ -28,7 +28,6 @@ snacks.setup({
 vim.keymap.set('n', '<leader>ff', snacks.picker.files, { desc = 'Find files' })
 vim.keymap.set('n', '<leader>fg', snacks.picker.grep, { desc = 'Grep' })
 vim.keymap.set('n', '<leader>fb', snacks.picker.buffers, { desc = 'Buffers' })
-vim.keymap.set('n', '<leader>fa', snacks.picker.args, { desc = 'Args' })
 vim.keymap.set('n', 'grr', snacks.picker.lsp_references, {})
 vim.keymap.set('n', 'gd', snacks.picker.lsp_definitions, {})
 vim.keymap.set('n', 'z=', snacks.picker.spelling, {})
