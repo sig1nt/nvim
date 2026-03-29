@@ -104,6 +104,7 @@ vim.keymap.set("n", "<leader>rs", function()
     end
     nt_api.tree.reload()
     if pr_filter_active then
+        nt_api.tree.open()
         nt_api.tree.expand_all()
         nt_api.tree.focus()
     end
