@@ -1,0 +1,12 @@
+require('lib12.opts')
+require('lib12.autocmds')
+require('lib12.lsp')
+
+require('lib12.plugins.plenary')
+require('lib12.plugins.web-devicons')
+require('lib12.plugins.lspconfig')
+require('lib12.plugins.treesitter')
+require('lib12.plugins.snacks')
+require('lib12.plugins.git-blame')
+require('lib12.plugins.nvim-tree')
+require('lib12.plugins.gitsigns')
